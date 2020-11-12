@@ -1,0 +1,4 @@
+* instantiate worker.js as a web worker
+* create a better (programming) interface for interacting with the web worker
+* tweak prototype in such a way that the single-threaded implementation noticeably lags, while the web worker remains
+  lagfree

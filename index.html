@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            label[for="rotation"] {
+                position: absolute;
+                bottom: 2rem;
+                right: 2rem;
+                border-radius: 8px;
+                padding: 0.75rem 1rem;
+                background: white;
+                z-index: 1;
+            }
+        </style>
+        <title>work work</title>
+        <script src="variables.js"></script>
+        <script src="controls.js"></script>
+        <script src="worker.js"></script>
+    </head>
+    <body>
+        <label for="rotation">
+        <input type="range" min="-90" max="180" step="1" name="rotation" id="rotation" oninput="rotationSlider">
+            rotation
+        </label>
+    </body>
+</html>
